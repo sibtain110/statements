@@ -93,38 +93,83 @@
 
 
 
-// statements
+//===================------------ statements ------=======================
 
 
-let age = prompt("Enter your age")
+// let age = prompt("Enter your age")
 
-if (age <= 12 && age >= 0){
-    alert("you are young")
+// if (age <= 12 && age >= 0){
+//     alert("you are young")
+// }
+// else if(age < 0){
+//     alert("enter valid age")
+// }
+// else if(age <=19){
+//     alert("you are a teenager")
+// }
+// else if(age <= 30){
+//     alert("you are mature")
+// }
+// else if(age <= 50){
+//     alert("you are man")
+// }
+// else if(age <= 70){
+//     alert("you are getting old")
+// }
+// else if(age <= 100){
+//     alert("you are an old man")
+// }
+// else{
+//     alert("you are near to death")
+// }
+
+
+
+// -====================-------- home task ----================
+
+
+let day = prompt("enter a number between 0 to 7 for day name")
+
+if (day == 1){
+    alert("its monday")
+}else if (day == 2){
+    alert("its tuesday")
 }
-else if(age < 0){
-    alert("enter valid age")
+else if (day == 3){
+    alert("its wednesday")
 }
-else if(age <=19){
-    alert("you are a teenager")
+else if (day == 4){
+    alert("its thursday")
 }
-else if(age <= 30){
-    alert("you are mature")
+else if (day == 5){
+    alert("its friday")
 }
-else if(age <= 50){
-    alert("you are man")
+else if (day == 6){
+    alert("its saturday")
 }
-else if(age <= 70){
-    alert("you are getting old")
-}
-else if(age <= 100){
-    alert("you are an old man")
+else if (day == 7){
+    alert("its sunday")
 }
 else{
-    alert("you are near to death")
+    alert("enter valid number for day name")
 }
 
 
 
+
+
+
+
+
+
+// let age = prompt("enter your age for job")
+
+// if (age >= 0 && age <=20 ){
+//     alert("you are eligible")
+// }
+// else{
+//     alert("you are not eligible")
+// }
 
 
 
