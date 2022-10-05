@@ -128,37 +128,73 @@
 // -====================-------- home task ----================
 
 
-let day = prompt("enter a number between 0 to 7 for day name")
+// let day = prompt("enter a number between 0 to 7 for day name")
 
-if (day == 1){
-    alert("its monday")
-}else if (day == 2){
-    alert("its tuesday")
-}
-else if (day == 3){
-    alert("its wednesday")
-}
-else if (day == 4){
-    alert("its thursday")
-}
-else if (day == 5){
-    alert("its friday")
-}
-else if (day == 6){
-    alert("its saturday")
-}
-else if (day == 7){
-    alert("its sunday")
-}
-else{
-    alert("enter valid number for day name")
-}
-
-
+// if (day == 1){
+//     alert("its monday")
+// }else if (day == 2){
+//     alert("its tuesday")
+// }
+// else if (day == 3){
+//     alert("its wednesday")
+// }
+// else if (day == 4){
+//     alert("its thursday")
+// }
+// else if (day == 5){
+//     alert("its friday")
+// }
+// else if (day == 6){
+//     alert("its saturday")
+// }
+// else if (day == 7){
+//     alert("its sunday")
+// }
+// else{
+//     alert("enter valid number for day name")
+// }
 
 
 
 
+
+// ================-------- switch statement------==================
+
+
+let day = prompt("enter a number for day")
+
+switch(day){
+    case "1":
+        alert("its sunday")
+        break;
+
+    case "2":
+        alert("its monday")
+        break;
+
+    case "3":
+        alert("its tuesday")
+        break;
+
+     case "4":
+        alert("its wednesday")
+        break;
+
+    case "5":
+        alert("its thursday")
+        break;
+
+    case "6":
+        alert("its friday")
+        break;
+
+    case "7":
+         alert("its saturday")
+         break;
+         
+    default:
+        alert("enter a valid number")
+}
 
 
 
