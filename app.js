@@ -38,6 +38,8 @@
 // console.log( !(x > 10 ));
 
 
+// --------------------------------------------------------------------
+
 
 // logical opertors
 
@@ -156,47 +158,7 @@
 
 
 
-
-
-// ================-------- switch statement------==================
-
-
-let day = prompt("enter a number for day")
-
-switch(day){
-    case "1":
-        alert("its sunday")
-        break;
-
-    case "2":
-        alert("its monday")
-        break;
-
-    case "3":
-        alert("its tuesday")
-        break;
-
-     case "4":
-        alert("its wednesday")
-        break;
-
-    case "5":
-        alert("its thursday")
-        break;
-
-    case "6":
-        alert("its friday")
-        break;
-
-    case "7":
-         alert("its saturday")
-         break;
-         
-    default:
-        alert("enter a valid number")
-}
-
-
+// =====================================================
 
 // let age = prompt("enter your age for job")
 
@@ -207,13 +169,95 @@ switch(day){
 //     alert("you are not eligible")
 // }
 
+// ================-------- switch statement------==================
+
+
+// let day = prompt("enter a number for day")
+
+// switch(day){
+//     case "1":
+//         alert("its sunday")
+//         break;
+
+//     case "2":
+//         alert("its monday")
+//         break;
+
+//     case "3":
+//         alert("its tuesday")
+//         break;
+
+//      case "4":
+//         alert("its wednesday")
+//         break;
+
+//     case "5":
+//         alert("its thursday")
+//         break;
+
+//     case "6":
+//         alert("its friday")
+//         break;
+
+//     case "7":
+//          alert("its saturday")
+//          break;
+         
+//     default:
+//         alert("enter a valid number")
+// }
+
+// ===============-----------result by swith statement------====================
+
+
+// let marks = prompt("enter your marks")
+
+// switch(marks){
+//     case ("marks <= 100 && marks >= 90"):
+//         alert("you grade A+")
+
+// }
+
+
+// ==============--------ternary operators-===========----------------
+
+(5 > 4 )? console.log("true") : console.log("false")
 
 
 
 
+// ---------------------------loop IN JS-----------------------------
+
+// while loop----
+
+let s = 1
+
+while(s <= 10){
+    document.write(" hello<br>")
+    s++
+}
+
+// ========================================================================//
 
 
+// do while loop --------------
+
+let x = 1
+
+do{
+    document.write("ali<br>"); x++
+}
+while(x <= 20)
+
+// ========================================================================
 
 
+// for loop-------
+
+for(let a = 1; a <= 10; a++){
+    document.write("abbas<br>")
+}
+
+// =====================================================================
 
 
