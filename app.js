@@ -221,43 +221,80 @@
 
 // ==============--------ternary operators-===========----------------
 
-(5 > 4 )? console.log("true") : console.log("false")
+// (5 > 4 )? console.log("true") : console.log("false")
 
 
 
 
-// ---------------------------loop IN JS-----------------------------
+// // ---------------------------loop IN JS-----------------------------
 
-// while loop----
+// // while loop----
 
-let s = 1
+// let s = 1
 
-while(s <= 10){
-    document.write(" hello<br>")
-    s++
+// while(s <= 10){
+//     document.write(" hello<br>")
+//     s++
+// }
+
+// // ========================================================================//
+
+
+// // do while loop --------------
+
+// let x = 1
+
+// do{
+//     document.write("ali<br>"); x++
+// }
+// while(x <= 10)
+
+// // ========================================================================
+
+
+// // for loop-------
+
+// for(let a = 1; a <= 10; a++){
+//     document.write("abbas<br>")
+// }
+
+
+// // =====================================================================
+
+// const car = ["BMW","<br>","FORD","<br>","LAMBORGINI","<br>","HONDA","<br>","TOYOTA",]
+
+// for(let i = 0; i<car.length; i++){
+//     document.write(car[i])
+    
+// }
+
+// const days = ["sunday","monday",""]
+
+
+// ===============-----------task-------==============--------
+
+// --======================= print odd number ====----------------
+
+for ( let i = 1; i <=100 ; i++){
+    if(i % 2 !==0){
+        document.write(i,"<br>")
+    }
+    else{
+         document.write("");
+        }
 }
 
-// ========================================================================//
+// ================ print even number=============--------------e
 
-
-// do while loop --------------
-
-let x = 1
-
-do{
-    document.write("ali<br>"); x++
-}
-while(x <= 20)
-
-// ========================================================================
-
-
-// for loop-------
-
-for(let a = 1; a <= 10; a++){
-    document.write("abbas<br>")
+for( let j = 1; j <= 100 ;j++){
+    if(j % 2==0){
+        document.write(j,"<br>")
+    }
+    else{
+        document.write("");
+       }
 }
 
-// =====================================================================
+
 
 
