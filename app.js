@@ -296,5 +296,80 @@ for( let j = 1; j <= 100 ;j++){
 }
 
 
+// ====--=-----------===== data add and remove in object---------=========
 
 
+let v = {
+    fname : "ali",
+    lname : "abbas",
+    age : 22,
+    addres : ["danyore","gilgit"]
+}
+
+delete v["addres"][0]
+console.log(v);
+   
+
+// ----------=============== add ==-----------------
+
+let s = {
+    fname : "ali",
+    lname : "abbas",
+    age : 22,
+    addres : ["gilgit"]
+
+}
+
+s.mname="hussain"
+console.log(s);
+
+
+// ============--- function----==============
+
+
+const l = "khan"
+
+function gg(f){
+
+    d = "ali"
+
+    console.log(l);
+
+    console.log(d)
+
+    console.log(f);
+
+    function bb(a){
+        y = "hussain"
+        console.log(y)
+        console.log(a);
+    }
+    bb("muhammad")
+}
+gg("abbas")
+
+function add(){
+    let why = ["your name","your class","your fname"]
+    console.log(why);
+}
+add()
+add()
+add()
+add()
+add()
+add()
+add()
+add()
+add()
+add()
+add()
+add()
+add()
+add()
+
+let x = "sibtain"
+let text = "my name is"+ x + "abbas"
+function id(){
+console.log(text);
+}
+id()
