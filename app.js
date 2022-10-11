@@ -368,8 +368,46 @@ add()
 add()
 
 let x = "sibtain"
-let text = "my name is"+ x + "abbas"
+let text = "my name is "+ x +  " abbas"
 function id(){
 console.log(text);
 }
 id()
+
+
+let fname = "abbas"
+let lname = "fayaz"
+
+let tname = fname+" "+lname
+console.log(tname);
+console.log(lname+" "+fname);
+
+
+let g = "ali"
+
+function name(){
+    console.log(g)
+}
+name()
+
+
+    let a = 10
+
+    let b = 20
+
+let c = a + b
+
+function addition(a,b){
+    console.log(sum = a + b)
+}
+addition(10,20)
+
+let k = "ali"
+
+function dimmi(){
+    let  p = "junaid"
+    console.log(p)
+    console.log(k)
+}
+dimmi()
+
