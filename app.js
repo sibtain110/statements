@@ -275,139 +275,226 @@
 
 // --======================= print odd number ====----------------
 
-for ( let i = 1; i <=100 ; i++){
-    if(i % 2 !==0){
-        document.write(i,"<br>")
-    }
-    else{
-         document.write("");
-        }
-}
+// for ( let i = 1; i <=100 ; i++){
+//     if(i % 2 !==0){
+//         document.write(i,"<br>")
+//     }
+//     else{
+//          document.write("");
+//         }
+// }
 
-// ================ print even number=============--------------e
+// // ================ print even number=============--------------e
 
-for( let j = 1; j <= 100 ;j++){
-    if(j % 2==0){
-        document.write(j,"<br>")
-    }
-    else{
-        document.write("");
-       }
-}
-
-
-// ====--=-----------===== data add and remove in object---------=========
+// for( let j = 1; j <= 100 ;j++){
+//     if(j % 2==0){
+//         document.write(j,"<br>")
+//     }
+//     else{
+//         document.write("");
+//        }
+// }
 
 
-let v = {
-    fname : "ali",
-    lname : "abbas",
-    age : 22,
-    addres : ["danyore","gilgit"]
-}
+// // ====--=-----------===== data add and remove in object---------=========
 
-delete v["addres"][0]
-console.log(v);
+
+// let v = {
+//     fname : "ali",
+//     lname : "abbas",
+//     age : 22,
+//     addres : ["danyore","gilgit"]
+// }
+
+// delete v["addres"][0]
+// console.log(v);
    
 
-// ----------=============== add ==-----------------
+// // ----------=============== add ==-----------------
 
-let s = {
-    fname : "ali",
-    lname : "abbas",
-    age : 22,
-    addres : ["gilgit"]
+// let s = {
+//     fname : "ali",
+//     lname : "abbas",
+//     age : 22,
+//     addres : ["gilgit"]
+
+// }
+
+// s.mname="hussain"
+// console.log(s);
+
+
+// // ============--- function----==============
+
+
+// const l = "khan"
+
+// function gg(f){
+
+//     d = "ali"
+
+//     console.log(l);
+
+//     console.log(d)
+
+//     console.log(f);
+
+//     function bb(a){
+//         y = "hussain"
+//         console.log(y)
+//         console.log(a);
+//     }
+//     bb("muhammad")
+// }
+// gg("abbas")
+
+// function add(){
+//     let why = ["your name","your class","your fname"]
+//     console.log(why);
+// }
+// add()
+// add()
+// add()
+// add()
+// add()
+// add()
+// add()
+// add()
+// add()
+// add()
+// add()
+// add()
+// add()
+// add()
+
+// let x = "sibtain"
+// let text = "my name is "+ x +  " abbas"
+// function id(){
+// console.log(text);
+// }
+// id()
+
+
+// let fname = "abbas"
+// let lname = "fayaz"
+
+// let tname = fname+" "+lname
+// console.log(tname);
+// console.log(lname+" "+fname);
+
+
+// let g = "ali"
+
+// function name(){
+//     console.log(g)
+// }
+// name()
+
+
+//     let a = 10
+
+//     let b = 20
+
+// let c = a + b
+
+// function addition(a,b){
+//     console.log(sum = a + b)
+// }
+// addition(10,20)
+
+// let k = "ali"
+
+// function dimmi(){
+//     let  p = "junaid"
+//     console.log(p)
+//     console.log(k)
+// }
+// dimmi()
+
+
+// =========--------------class work==-------=================
+
+
+// let a = {
+//     name : "ali",
+//     age : 22,
+//     addres : "danyore",
+    
+//     b : {
+//         name : "ABBAS"
+//     },
+
+//     c : {
+//         nname : "malik"
+//     },
+//     d : ["hassan",32,"jutial"]
+
+// }
+
+
+
+// function obj(b){
+//     console.log(b);
+//     console.log(a.d[0]);
+// }
+// obj(a)
+
+
+// --------------=================---hometask-------==================
+
+
+// ===========------addition
+
+// let f = prompt("enter a number addtion")
+// let g = prompt("enter second number")
+
+// function sub (f,g){
+// console.log(f);
+// console.log(g);
+// console.log(sum = f + g)
+
+// }
+// sub (f,g)
+
+// ----subtract 
+
+
+
+    let x = prompt("enter a number subtraction")
+    let y = prompt("enter second number")
+
+function sub (x,y){
+    console.log(x);
+    console.log(y);
+    console.log(sum = x - y)
+    
+}
+ sub (x,y)
+
+
+//  -------mutiply
+
+let a = prompt("enter a number mutiplication")
+let b = prompt("enter second number")
+
+function sub (a,b){
+console.log(a);
+console.log(b);
+console.log(sum = a - b )
 
 }
+sub (a,b)
 
-s.mname="hussain"
+
+// ====-----divid
+
+let s = prompt("enter a number for divide")
+let d = prompt("enter second number")
+
+function sub (s,d){
 console.log(s);
+console.log(d);
+console.log(sum = s - d)
 
-
-// ============--- function----==============
-
-
-const l = "khan"
-
-function gg(f){
-
-    d = "ali"
-
-    console.log(l);
-
-    console.log(d)
-
-    console.log(f);
-
-    function bb(a){
-        y = "hussain"
-        console.log(y)
-        console.log(a);
-    }
-    bb("muhammad")
 }
-gg("abbas")
-
-function add(){
-    let why = ["your name","your class","your fname"]
-    console.log(why);
-}
-add()
-add()
-add()
-add()
-add()
-add()
-add()
-add()
-add()
-add()
-add()
-add()
-add()
-add()
-
-let x = "sibtain"
-let text = "my name is "+ x +  " abbas"
-function id(){
-console.log(text);
-}
-id()
-
-
-let fname = "abbas"
-let lname = "fayaz"
-
-let tname = fname+" "+lname
-console.log(tname);
-console.log(lname+" "+fname);
-
-
-let g = "ali"
-
-function name(){
-    console.log(g)
-}
-name()
-
-
-    let a = 10
-
-    let b = 20
-
-let c = a + b
-
-function addition(a,b){
-    console.log(sum = a + b)
-}
-addition(10,20)
-
-let k = "ali"
-
-function dimmi(){
-    let  p = "junaid"
-    console.log(p)
-    console.log(k)
-}
-dimmi()
-
+sub (s,d)
