@@ -445,16 +445,16 @@
 
 // ===========------addition
 
-let f = +prompt("enter a number addtion")
-let g = +prompt("enter second number")
+// let f = +prompt("enter a number addtion")
+// let g = +prompt("enter second number")
 
-function sub (f,g){
-console.log(f);
-console.log(g);
-console.log(sum = f + g)
+// function sub (f,g){
+// console.log(f);
+// console.log(g);
+// console.log(sum = f + g)
 
-}
-sub (f,g)
+// }
+// sub (f,g)
 
 // ----subtract 
 
@@ -555,8 +555,18 @@ function yt(){
 }
 
 
-// ==========---------booleans values====--------------
+// ==========---------for each  method ====--------------
 
 
+let array =[1,2,3,4,5,6,7,8,9,10]
+console.log(array);
+
+array.forEach((x)=> console.log(x*2))
 
 
+// ------------------example
+
+
+let arr = [1,2,3,4,5,6,7,8,9]
+
+arr.forEach((x)=> console.log(x*3))
