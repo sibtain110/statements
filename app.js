@@ -460,41 +460,97 @@
 
 
 
-    let x = prompt("enter a number subtraction")
-    let y = prompt("enter second number")
+//     let x = prompt("enter a number subtraction")
+//     let y = prompt("enter second number")
 
-function sub (x,y){
-    console.log(x);
-    console.log(y);
-    console.log(sum = x - y)
+// function sub (x,y){
+//     console.log(x);
+//     console.log(y);
+//     console.log(sum = x - y)
     
+// }
+//  sub (x,y)
+
+
+// //  -------mutiply
+
+// let a = prompt("enter a number mutiplication")
+// let b = prompt("enter second number")
+
+// function sub (a,b){
+// console.log(a);
+// console.log(b);
+// console.log(sum = a - b )
+
+// }
+// sub (a,b)
+
+
+// // ====-----divid
+
+// let s = prompt("enter a number for divide")
+// let d = prompt("enter second number")
+
+// function sub (s,d){
+// console.log(s);
+// console.log(d);
+// console.log(sum = s - d)
+
+// }
+// sub (s,d)
+
+
+
+
+// -----------===========-----------class -----===================
+
+
+// -===========  hosting -=======-
+
+
+xd("abbas")
+
+function xd(s){
+    let a = {
+        name : "ali"
+    }
+    console.log(a);
+    console.log(s);
 }
- sub (x,y)
 
 
-//  -------mutiply
+// --------------examples
 
-let a = prompt("enter a number mutiplication")
-let b = prompt("enter second number")
 
-function sub (a,b){
-console.log(a);
-console.log(b);
-console.log(sum = a - b )
+sd()
 
+function sd(){
+    let d = {
+       name : "muhammad"
+    }
+    console.log(d);
 }
-sub (a,b)
 
 
-// ====-----divid
 
-let s = prompt("enter a number for divide")
-let d = prompt("enter second number")
 
-function sub (s,d){
-console.log(s);
-console.log(d);
-console.log(sum = s - d)
+ds()
 
+function ds(){
+    let w = {
+        name : "ducky"
+    }
+    console.log(w);
 }
-sub (s,d)
+
+
+
+yt()
+
+function yt(){
+    let e = {
+        name : "nadeem"
+    }
+    console.log(e);
+}
+
