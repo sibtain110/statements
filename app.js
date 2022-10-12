@@ -445,16 +445,16 @@
 
 // ===========------addition
 
-// let f = prompt("enter a number addtion")
-// let g = prompt("enter second number")
+let f = +prompt("enter a number addtion")
+let g = +prompt("enter second number")
 
-// function sub (f,g){
-// console.log(f);
-// console.log(g);
-// console.log(sum = f + g)
+function sub (f,g){
+console.log(f);
+console.log(g);
+console.log(sum = f + g)
 
-// }
-// sub (f,g)
+}
+sub (f,g)
 
 // ----subtract 
 
@@ -553,4 +553,10 @@ function yt(){
     }
     console.log(e);
 }
+
+
+// ==========---------booleans values====--------------
+
+
+
 
