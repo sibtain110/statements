@@ -508,79 +508,113 @@
 // -===========  hosting -=======-
 
 
-xd("abbas")
+// xd("abbas")
 
-function xd(s){
-    let a = {
-        name : "ali"
-    }
-    console.log(a);
-    console.log(s);
+// function xd(s){
+//     let a = {
+//         name : "ali"
+//     }
+//     console.log(a);
+//     console.log(s);
+// }
+
+
+// // --------------examples
+
+
+// sd()
+
+// function sd(){
+//     let d = {
+//        name : "muhammad"
+//     }
+//     console.log(d);
+// }
+
+
+
+
+// ds()
+
+// function ds(){
+//     let w = {
+//         name : "ducky"
+//     }
+//     console.log(w);
+// }
+
+
+
+// yt()
+
+// function yt(){
+//     let e = {
+//         name : "nadeem"
+//     }
+//     console.log(e);
+// }
+
+// sk()
+
+// function sk(){
+//     let r = {
+//         name : "sibtain" 
+//     }
+//     console.log(r.name);
+// }
+
+
+// // ==========---------for each  method ====--------------
+
+
+// let array =[1,2,3,4,5,6,7,8,9,10]
+// console.log(array);
+
+// array.forEach((x)=> console.log(x*2))
+
+
+// // ------------------example
+
+
+// let arr = [1,2,3,4,5,6,7,8,9]
+
+// arr.forEach((x)=> console.log(x*3))
+
+
+// let dm = [1,2,3,4,5,6,7,8,9]
+
+// dm.forEach((x)=> console.log(x*4))
+
+
+
+
+// ==================slice====================
+
+
+let arr = ["ali","abbas","mehdi","yousuf","essa","mussa"]
+console.log(arr);
+
+let arr1 = arr.slice(3,5)
+console.log(arr1)
+
+
+// ================splice-====================
+
+
+let arr2 = ["khan","fayaz","sibtain","mesum","raju"]
+console.log(arr2);
+
+
+
+arr2.splice(2,0,"nasir")
+console.log(arr2)
+
+
+// =================================ARROW Function==============
+
+
+const arr4 = (a,b)=>{
+    let sum = a + b
+    console.log(sum)
 }
-
-
-// --------------examples
-
-
-sd()
-
-function sd(){
-    let d = {
-       name : "muhammad"
-    }
-    console.log(d);
-}
-
-
-
-
-ds()
-
-function ds(){
-    let w = {
-        name : "ducky"
-    }
-    console.log(w);
-}
-
-
-
-yt()
-
-function yt(){
-    let e = {
-        name : "nadeem"
-    }
-    console.log(e);
-}
-
-sk()
-
-function sk(){
-    let r = {
-        name : "sibtain" 
-    }
-    console.log(r.name);
-}
-
-
-// ==========---------for each  method ====--------------
-
-
-let array =[1,2,3,4,5,6,7,8,9,10]
-console.log(array);
-
-array.forEach((x)=> console.log(x*2))
-
-
-// ------------------example
-
-
-let arr = [1,2,3,4,5,6,7,8,9]
-
-arr.forEach((x)=> console.log(x*3))
-
-
-let dm = [1,2,3,4,5,6,7,8,9]
-
-dm.forEach((x)=> console.log(x*4))
+arr4(5,6)
