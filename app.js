@@ -554,6 +554,15 @@ function yt(){
     console.log(e);
 }
 
+sk()
+
+function sk(){
+    let r = {
+        name : "sibtain" 
+    }
+    console.log(r.name);
+}
+
 
 // ==========---------for each  method ====--------------
 
@@ -570,3 +579,8 @@ array.forEach((x)=> console.log(x*2))
 let arr = [1,2,3,4,5,6,7,8,9]
 
 arr.forEach((x)=> console.log(x*3))
+
+
+let dm = [1,2,3,4,5,6,7,8,9]
+
+dm.forEach((x)=> console.log(x*4))
