@@ -632,3 +632,17 @@ let obj2 = obj.map(func)
 function func(data){
     return console.log(data * 2) 
 }
+
+
+// ============== array of object map -----------===========
+
+let arry = [22,33,{
+    fname : "ali",
+    age : 22
+}]
+
+let arry2 = arry.map(myfunction)
+
+function myfunction(data1){
+    return console.log(data1.fname + 10 , data1.age +10)
+}
