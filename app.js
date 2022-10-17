@@ -162,7 +162,7 @@
 
 // let age = prompt("enter your age for job")
 
-// if (age >= 0 && age <=20 ){
+// if (age >= 15 && age <=25 ){
 //     alert("you are eligible")
 // }
 // else{
@@ -591,30 +591,44 @@
 // ==================slice====================
 
 
-let arr = ["ali","abbas","mehdi","yousuf","essa","mussa"]
-console.log(arr);
+// let arr = ["ali","abbas","mehdi","yousuf","essa","mussa"]
+// console.log(arr);
 
-let arr1 = arr.slice(3,5)
-console.log(arr1)
+// let arr1 = arr.slice(3,5)
+// console.log(arr1)
 
 
 // ================splice-====================
 
 
-let arr2 = ["khan","fayaz","sibtain","mesum","raju"]
-console.log(arr2);
+// let arr2 = ["khan","fayaz","sibtain","mesum","raju"]
+// console.log(arr2);
 
 
 
-arr2.splice(2,0,"nasir")
-console.log(arr2)
+// arr2.splice(2,0,"nasir")
+// console.log(arr2)
 
 
 // =================================ARROW Function==============
 
 
-const arr4 = (a,b)=>{
-    let sum = a + b
-    console.log(sum)
+// const arr4 = (a,b)=>{
+//     let sum = a + b
+//     console.log(sum)
+// }
+// arr4(5,6)
+
+
+
+
+// =========================----aray map-===============
+
+
+let obj = [22,33,44,55,66]
+
+let obj2 = obj.map(func)
+
+function func(data){
+    return console.log(data * 2) 
 }
-arr4(5,6)
